@@ -1,3 +1,4 @@
+<!-- footer content -->
 <footer>
     <div class="pull-right">
         Admin Theme Laravel Edition by <a href="https://safak.co">safak.co</a>
@@ -48,6 +49,7 @@
 
 <!-- Custom Theme Scripts -->
 <script src="{{asset('laraadmin/build/js/custom.min.js')}}"></script>
+@yield('js')
 
 </body>
 </html>

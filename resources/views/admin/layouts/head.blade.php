@@ -27,4 +27,5 @@
 
     <!-- Custom Theme Style -->
     <link href="{{asset('laraadmin/build/css/custom.min.css')}}" rel="stylesheet">
+    @yield('css')
 </head>
